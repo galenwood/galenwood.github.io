@@ -2,15 +2,77 @@
 
 <html lang="en">
     <head>
-        <title>For Pupchik</title>
-        <link href="style.css" rel="stylesheet">
+        <title>CS50</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <div>
-             Весела Собацюра
+        <h1>Brainstorm JS</h1>
+        
+        <h4>1. Перша фітча?</h4>
+        <form class="first-form">
+            <input id="placeholder" type="text" name="answ-q" placeholder="New task">
+            <input id="submit" type="submit">
+        </form>
+        <ul id="task"></ul>
+
+        <h4>2. Друга фітча?</h4>
+
+        <div id="radio-flex">
+            <button data-color="yellow" id="button">Yellow</button>
+            <button data-color="red" id="button">Red</button>
+            <button data-color="green" id="button">Green</button>
+
+            <h3 id="change-text">Bonjour</h3>
         </div>
-        <button id="btn">Тяпай сюди</button>
+
+        <h4>3. Третя фітча?</h4>
+
+        <button class="correct">Ukraine</button>
+        <button id="incorrect">USA</button>
+        <button id="incorrect">France</button>
+        <p id="feedback1"></p>
+        <p id="feedback2"></p>
+
+        <h4>4. Четверта фітча!</h4>
+        <div id="flex-column">
+            <h3 id="count">0</h3>
+        <button class="counter-btn" id="plus">+</button>
+        <button class="counter-btn" id="minus">-</button>
+        <form>
+            <input class="counter-st" type="submit" value="Restart">
+        </form>
+        </div>
+
+        <h4>5. Пята фітча!</h4>
+        <div id="colors-flex">
+            <label for="colors">Choose a color:</label>
+
+            <select name="colors" id="colors">
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="orange">Orange</option>
+            </select>
+
+            <h3 id="color-text">Color</h3>
+        </div>
+        <h4>6. Шоста фітча!</h4>
+
+        <form>
+            <input class="currency" type="text" placeholder="Amount" autofocus id="amount">
+            <input class="currency" type="text" placeholder="USD" autofocus id="USD">
+            <input class="currency" type="text" placeholder="EUR" autofocus id="EUR">
+            <input class="currency" type="submit" value="Convert">
+        </form>
+        <div id="result"></div>
+
+        <h4>7. Сьома фітча!</h4>
+
+        <h3 id="animation-text">New feature</h3>
+        <button id="ani-btn">Play me</button>
+
+    <script src="script.js"></script>
     </body>
-    <script src="api.js"></script>
 </html>
