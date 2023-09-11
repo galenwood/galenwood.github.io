@@ -1,0 +1,107 @@
+body {
+    background-color: azure;
+}
+
+button {
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.placeholder {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.submit {
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background-color: yellow;
+    color: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+#flex-column {
+    display: flex;
+    align-items: center;
+}
+
+#radio-flex{
+    display: flex;
+    align-items: center;
+}
+
+.counter-btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.counter-st {
+    margin-left: 10px;
+}
+
+#plus {
+    margin-left: 20px;
+}
+
+#colors-flex {
+    display: flex;
+    align-items: center;
+}
+
+#colors {
+    width: 70px;
+    height: 20px;
+}
+
+select {
+    margin: 0px 10px 0px;
+}
+
+.currency {
+    margin-right: 10px;
+}
+
+@keyframes feature{
+    0%{
+        left: 0%;
+    }
+    50% {
+        left: 50%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+#animation-text{
+    position: relative;
+    animation-name: feature;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-iteration-count: 2;
+    animation-duration: 4s;
+    
+}
